@@ -96,7 +96,7 @@ function Videotg() {
       {areSectionsDisplayed && (
           <div className='button-cont'>
           <a href="https://app.sistemacp7kparticipe.chat/f3-7k" className="custom-button">
-            RECEBA SEU PRÉMIO AGORA</a>
+            RECEBA SEU PRÉMIO AGORAA</a>
         </div>
       )}
     </div>
