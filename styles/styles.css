@@ -13,3 +13,43 @@
     }
   }
   
+  .button-cont {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 10000000;
+    animation: pulapula 1.5s infinite; /* Correção aqui */
+    margin-bottom: 25px;
+
+  }
+  
+  @keyframes pulapula {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .custom-button {
+    background-color: #00bb09;
+    color: #fff;
+    font-size: 22px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transform-origin: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  a.custom-button {
+    text-decoration: none;
+  }
+  

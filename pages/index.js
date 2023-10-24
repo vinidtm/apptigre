@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <>
     <Head>
-    <title>Saúde Perfeita</title>
+    <title>Tiguer </title>
     <link rel='shortcut icon' href='/Icon.jpg' />
 
 <link rel="preload" href="https://scripts.converteai.net/1db8e03a-c1fc-4fa6-b094-4a5346a615e6/players/6536a37ec05627000846a8c7/player.js" as="script"/>
