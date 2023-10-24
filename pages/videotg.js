@@ -21,6 +21,7 @@ function Videotg() {
     const showHiddenElements = () => {
       elsDisplayed = true;
       elsHiddenList.forEach((e) => (e.style.display = 'block'));
+      localStorage.setItem(alreadyDisplayedKey, 'true');
       setAreSectionsDisplayed(true);
     };
 
@@ -42,7 +43,11 @@ function Videotg() {
       });
     };
 
-    if (alreadyElsDisplayed !== 'true') {
+    if (alreadyElsDisplayed === 'true') {
+      setTimeout(() => {
+        showHiddenElements();
+      }, 100);
+    } else {
       startWatchVideoProgress();
     }
 
@@ -96,8 +101,9 @@ function Videotg() {
       {areSectionsDisplayed && (
           <div className='button-cont'>
           <a href="https://app.sistemacp7kparticipe.chat/f3-7k" className="custom-button">
-            RECEBA SEU PRÉMIO AGORAA</a>
+            RECEBA SEU PRÉMIO AGORA</a>
         </div>
+
       )}
     </div>
   );
