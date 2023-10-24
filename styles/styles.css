@@ -21,8 +21,7 @@
     text-align: center;
     z-index: 10000000;
     animation: pulapula 1.5s infinite; /* Correção aqui */
-    margin-bottom: 25px;
-
+    margin-bottom: 70px;
   }
   
   @keyframes pulapula {
