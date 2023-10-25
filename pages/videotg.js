@@ -100,10 +100,9 @@ function Videotg() {
       </div>
       {areSectionsDisplayed && (
           <div className='button-cont'>
-          <a href="https://app.sistemacp7kparticipe.chat/f3-7k" className="custom-button">
+          <a href="https://typebot.io/funil-do-tiger-9x5el9g" className="custom-button">
             RECEBA SEU PRÊMIO AGORA!</a>
         </div>
-
       )}
     </div>
   );
