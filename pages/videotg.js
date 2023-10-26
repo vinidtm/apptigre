@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import ScriptUTM from '../public/Scriptutm';
 
 function Videotg() {
   const [areSectionsDisplayed, setAreSectionsDisplayed] = useState(false);
@@ -100,8 +101,9 @@ function Videotg() {
       </div>
       {areSectionsDisplayed && (
           <div className='button-cont'>
-          <a href="https://typebot.io/funil-do-tiger-9x5el9g" className="custom-button">
+          <a href="https://typebot.io/tiger9x5el9g" className="custom-button">
             RECEBA SEU PRÊMIO AGORA!</a>
+          <ScriptUTM/>
         </div>
       )}
     </div>
