@@ -10,10 +10,10 @@ const Home = () => {
     <title>Tiguer </title>
     <link rel='shortcut icon' href='/Icon.jpg' />
 
-<link rel="preload" href="https://scripts.converteai.net/1db8e03a-c1fc-4fa6-b094-4a5346a615e6/players/6536a37ec05627000846a8c7/player.js" as="script"/>
+    <link rel="preload" href="https://scripts.converteai.net/1db8e03a-c1fc-4fa6-b094-4a5346a615e6/players/65396abd1fc5140009d0df38/player.js" as="script"/>
 <link rel="preload" href="https://cdn.converteai.net/lib/js/smartplayer/v1/smartplayer.min.js" as="script"/>
-<link rel="preload" href="https://images.converteai.net/1db8e03a-c1fc-4fa6-b094-4a5346a615e6/players/6536a37ec05627000846a8c7/thumbnail.jpg" as="image"/>
-<link rel="preload" href="https://cdn.converteai.net/1db8e03a-c1fc-4fa6-b094-4a5346a615e6/6536a366a1e7020009844a79/main.m3u8" as="fetch"/>
+<link rel="preload" href="https://images.converteai.net/1db8e03a-c1fc-4fa6-b094-4a5346a615e6/players/65396abd1fc5140009d0df38/thumbnail.jpg" as="image"/>
+<link rel="preload" href="https://cdn.converteai.net/1db8e03a-c1fc-4fa6-b094-4a5346a615e6/65396ab85983360009e6d6ce/main.m3u8" as="fetch"/>
 <link rel="dns-prefetch" href="https://cdn.converteai.net"/>
 <link rel="dns-prefetch" href="https://scripts.converteai.net"/>
 <link rel="dns-prefetch" href="https://images.converteai.net"/>
