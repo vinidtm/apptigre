@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import Script from './script';
 
 function Videotg() {
   const [areSectionsDisplayed, setAreSectionsDisplayed] = useState(false);
