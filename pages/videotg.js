@@ -58,9 +58,9 @@ function Videotg() {
 
   useEffect(() => {
     const script = document.createElement('script');
-    script.id = 'scr_65393c5a251cbe00095eacc8';
+    script.id = 'scr_65396abd1fc5140009d0df38';
     script.src =
-      'https://scripts.converteai.net/1db8e03a-c1fc-4fa6-b094-4a5346a615e6/players/65393c5a251cbe00095eacc8/player.js';
+      'https://scripts.converteai.net/1db8e03a-c1fc-4fa6-b094-4a5346a615e6/players/65396abd1fc5140009d0df38/player.js';
     script.async = true;
     document.head.appendChild(script);
 
@@ -72,12 +72,12 @@ function Videotg() {
   return (
     <div>
       <div
-        id='vid_65393c5a251cbe00095eacc8'
+        id='vid_65396abd1fc5140009d0df38'
         style={{ position: 'relative', width: '100%', padding: '56.25% 0 0' }}
       >
         <img
-          id='thumb_65393c5a251cbe00095eacc8'
-          src='https://images.converteai.net/1db8e03a-c1fc-4fa6-b094-4a5346a615e6/players/65393c5a251cbe00095eacc8/thumbnail.jpg'
+          id='thumb_65396abd1fc5140009d0df38'
+          src='https://images.converteai.net/1db8e03a-c1fc-4fa6-b094-4a5346a615e6/players/65396abd1fc5140009d0df38/thumbnail.jpg'
           style={{
             position: 'absolute',
             top: 0,
@@ -89,7 +89,7 @@ function Videotg() {
           }}
         />
         <div
-          id='backdrop_65393c5a251cbe00095eacc8'
+          id='backdrop_65396abd1fc5140009d0df38'
           style={{
             position: 'absolute',
             top: 0,
