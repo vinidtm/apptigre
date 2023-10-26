@@ -13,6 +13,7 @@
     "@typebot.io/nextjs": "^0.2.9",
     "next": "^13.5.6",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0"
   }
 }

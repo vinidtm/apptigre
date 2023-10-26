@@ -73,7 +73,7 @@ function Videotg() {
     <div>
       <div
         id='vid_65396abd1fc5140009d0df38'
-        style={{ position: 'relative', width: '100%', padding: '56.25% 0 0' }}
+        style={{ position: 'relative', width: '100%', padding: '178.21782178217822% 0 0' }}
       >
         <img
           id='thumb_65396abd1fc5140009d0df38'
