@@ -1,45 +1,47 @@
 import { useEffect } from 'react';
+import { useRouter } from 'next/router';
 
 const Script = () => {
-  useEffect(() => {
-    let prefix = ['https://typebot.io/'];
+  const prefix = ["https://go.aff.7k-partners.com/473saiao"];
 
-    function getParams() {
-      let t = '',
-        e = window.top.location.href,
-        r = new URL(e);
-      if (r !== null) {
-        let a = r.searchParams.get('utm_source'),
-          n = r.searchParams.get('utm_medium'),
-          o = r.searchParams.get('utm_campaign'),
-          m = r.searchParams.get('utm_term'),
-          c = r.searchParams.get('utm_content');
-        if (e.indexOf('?') !== -1) {
-          t = `&sck=${a}|${n}|${o}|${m}|${c}`;
-        }
-        console.log(t);
+  const getParams = () => {
+    let t = "";
+    const e = window.top.location.href;
+    const r = new URL(e);
+
+    if (r) {
+      const a = r.searchParams.get("utm_source");
+      const n = r.searchParams.get("utm_medium");
+      const o = r.searchParams.get("utm_campaign");
+      const m = r.searchParams.get("utm_term");
+      const c = r.searchParams.get("utm_content");
+
+      if (e.includes("?")) {
+        t = `&sck=${a}|${n}|${o}|${m}|${c}`;
       }
-      return t;
+      console.log(t);
     }
 
-    function appendSearchParamsToLinks() {
-      var t = new URLSearchParams(window.location.search);
-      if (t.toString()) {
-        document.querySelectorAll('a').forEach(function (e) {
-          for (let r = 0; r < prefix.length; r++) {
-            if (e.href.indexOf(prefix[r]) !== -1) {
-              if (e.href.indexOf('?') === -1) {
-                e.href += '?' + t.toString() + getParams();
-              } else {
-                e.href += '&' + t.toString() + getParams();
-              }
+    return t;
+  };
+
+  useEffect(() => {
+    const router = useRouter();
+    const t = new URLSearchParams(window.location.search);
+
+    if (t.toString()) {
+      document.querySelectorAll("a").forEach((e) => {
+        for (let r = 0; r < prefix.length; r++) {
+          if (e.href.includes(prefix[r])) {
+            if (e.href.includes("?")) {
+              e.href += "?" + t.toString() + getParams();
+            } else {
+              e.href += "&" + t.toString() + getParams();
             }
           }
-        });
-      }
+        }
+      });
     }
-
-    appendSearchParamsToLinks();
   }, []);
 
   return null;
