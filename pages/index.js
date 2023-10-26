@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Videotg from './videotg';
-import Script from './script';
+
 
 
 const Home = () => {
@@ -23,7 +23,6 @@ const Home = () => {
     <div>
     <div className='video-player-container-tigre'>
     <Videotg/>
-    <Script/>
     </div>
     </div>
     </>

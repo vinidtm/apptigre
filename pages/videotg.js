@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Script from './script';
 
 function Videotg() {
   const [areSectionsDisplayed, setAreSectionsDisplayed] = useState(false);
@@ -104,6 +105,7 @@ function Videotg() {
             RECEBA SEU PRÊMIO AGORA!</a>
         </div>
       )}
+      <Script/>
     </div>
   );
 }
