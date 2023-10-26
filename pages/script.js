@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 
 const Script = () => {
-  const prefix = ["https://go.aff.7k-partners.com/473saiao"];
+  const prefix = ["https://typebot.io/funil-do-tiger-9x5el9g"];
 
   const getParams = () => {
     let t = "";
