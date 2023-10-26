@@ -105,7 +105,6 @@ function Videotg() {
             RECEBA SEU PRÊMIO AGORA!</a>
         </div>
       )}
-      <Script/>
     </div>
   );
 }
