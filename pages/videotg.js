@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import ScriptUTM from '../public/Scriptutm';
+import Utm from '../public/utm';
 
 function Videotg() {
   const [areSectionsDisplayed, setAreSectionsDisplayed] = useState(false);
@@ -103,7 +103,7 @@ function Videotg() {
           <div className='button-cont'>
           <a href="https://typebot.io/tiger9x5el9g" className="custom-button">
             RECEBA SEU PRÊMIO AGORA!</a>
-          <ScriptUTM/>
+          <Utm/>
         </div>
       )}
     </div>
