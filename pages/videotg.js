@@ -101,7 +101,7 @@ function Videotg() {
       </div>
       {areSectionsDisplayed && (
           <div className='button-cont'>
-          <a href="https://typebot.io/tiger9x5el9g" className="custom-button">
+          <a href="https://app.chatonline.chat/tiger-10-30" className="custom-button">
             RECEBA SEU PRÊMIO AGORA!</a>
           <Utm/>
         </div>
