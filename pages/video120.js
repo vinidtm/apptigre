@@ -101,7 +101,7 @@ function Video120() {
       </div>
       {areSectionsDisplayed && (
           <div className='button-cont'>
-          <a href="https://typebot.io/tiger-30-120" className="custom-button">
+          <a href="https://app.chatonline.chat/tiger-30-120-whats" className="custom-button">
             RECEBA SEU PRÊMIO AGORA!</a>
           <Utm/>
         </div>
