@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Utm7k from '../public/utm7k';
 
 
 function Video60() {
@@ -103,7 +104,7 @@ function Video60() {
           <div className='button-cont'>
           <a href="https://app.chatonline.chat/tiger-20-60-whats" className="custom-button">
             RECEBA SEU PRÊMIO AGORA!</a>
-          <Utm/>
+          <Utm7k/>
         </div>
       )}
     </div>

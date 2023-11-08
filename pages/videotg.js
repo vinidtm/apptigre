@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Utm from '../public/utm';
+import Utm7k from '../public/utm7k';
 
 function Videotg() {
   const [areSectionsDisplayed, setAreSectionsDisplayed] = useState(false);
@@ -103,7 +103,7 @@ function Videotg() {
           <div className='button-cont'>
           <a href="https://app.chatonline.chat/tiger-10-30" className="custom-button">
             RECEBA SEU PRÊMIO AGORA!</a>
-          <Utm/>
+          <Utm7k/>
         </div>
       )}
     </div>
