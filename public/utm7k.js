@@ -13,9 +13,6 @@ function Utm7k () {
         let a = r.searchParams.get("utm_source"),
             n = r.searchParams.get("utm_medium"),
             o = r.searchParams.get("utm_campaign");
-        if (-1 !== e.indexOf("?")) {
-          t = `?utm_source=${a}&utm_medium=${n}&utm_campaign=${o}`;
-        }
         console.log(t);
       }
       return t;
@@ -27,9 +24,7 @@ function Utm7k () {
         for (let r = 0; r < prefix.length; r++) {
           if (-1 !== e.href.indexOf(prefix[r])) {
             if (-1 === e.href.indexOf("?")) {
-              e.href += t.toString() + getParams();
-            } else {
-              e.href += "&" + t.toString() + getParams();
+              e.href += "?" + t.toString() + getParams();
             }
           }
         }
