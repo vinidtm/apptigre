@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 function Utm () {
   useEffect(() => {
     // Seu código aqui
-    let prefix = ["https://typebot.io"];
+    let prefix = ["https://app.chatonline.chat/"];
     
     function getParams() {
       let t = "",

@@ -1,8 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
 import Video60 from './video60';
-import ScriptUTM from '../public/Scriptutm';
-
 
 
 const Pg60 = () => {
@@ -25,7 +23,6 @@ const Pg60 = () => {
     <div>
     <div className='video-player-container-tigre'>
     <Video60/>
-    <ScriptUTM/>
     </div>
     </div>
     </>

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import ScriptUTM from '../public/Scriptutm';
+
 
 function Video60() {
   const [areSectionsDisplayed, setAreSectionsDisplayed] = useState(false);
@@ -103,7 +103,7 @@ function Video60() {
           <div className='button-cont'>
           <a href="https://app.chatonline.chat/tiger-20-60-whats" className="custom-button">
             RECEBA SEU PRÊMIO AGORA!</a>
-          <ScriptUTM/>
+          <Utm/>
         </div>
       )}
     </div>
