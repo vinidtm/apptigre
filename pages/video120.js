@@ -103,7 +103,7 @@ function Video120() {
           <div className='button-cont'>
           <a href="https://app.chatonline.chat/tiger-30-120-whats" className="custom-button">
             RECEBA SEU PRÊMIO AGORA!</a>
-          <ScriptUTM/>
+            <ScriptUTM/>
         </div>
       )}
     </div>

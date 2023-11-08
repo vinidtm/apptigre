@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Video120 from './video120';
+import ScriptUTM from '../public/Scriptutm';
 
 const Pg120 = () => {
   return (
@@ -22,6 +23,7 @@ const Pg120 = () => {
     <div>
     <div className='video-player-container-tigre'>
     <Video120/>
+    <ScriptUTM/>
     </div>
     </div>
     </>
