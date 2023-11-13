@@ -2,7 +2,6 @@ import React from 'react';
 import Head from 'next/head';
 import Video120semw from './video120semw';
 
-
 const Pg120semw = () => {
   return (
     <>
