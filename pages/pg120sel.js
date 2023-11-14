@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Video120sel from './video120sel';
 
 
-const Pg120 = () => {
+const Pg120sel = () => {
   return (
     <>
     <Head>
@@ -29,6 +29,6 @@ const Pg120 = () => {
   );
 };
 
-export default Pg120;
+export default Pg120sel;
 
 
